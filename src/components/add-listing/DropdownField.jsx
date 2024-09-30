@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../../components/ui/select";
 
 export default function DropdownField({ carInfo, item, ...props }) {
   console.log(carInfo[item?.name]);

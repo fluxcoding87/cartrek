@@ -1,17 +1,17 @@
-import DetailsHeader from "@/components/listing-details/DetailsHeader";
-import { formatResult } from "@/shared/Service";
+import DetailsHeader from "../components/listing-details/DetailsHeader";
+import { formatResult } from "../shared/Service";
 import { db } from "../../configs/index";
 import { carImages, CarListing } from "../../configs/schema";
 import { eq } from "drizzle-orm";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import ImageGallery from "@/components/listing-details/ImageGallery";
-import Description from "@/components/listing-details/Description";
-import Features from "@/components/listing-details/Features";
-import Pricing from "@/components/listing-details/Pricing";
-import Specification from "@/components/listing-details/Specification";
-import OwnerDetails from "@/components/listing-details/OwnerDetails";
-import MostSearchCar from "@/components/MostSearchCar";
+import ImageGallery from "../components/listing-details/ImageGallery";
+import Description from "../components/listing-details/Description";
+import Features from "../components/listing-details/Features";
+import Pricing from "../components/listing-details/Pricing";
+import Specification from "../components/listing-details/Specification";
+import OwnerDetails from "../components/listing-details/OwnerDetails";
+import MostSearchCar from "../components/MostSearchCar";
 
 export default function ListingDetailsPage() {
   const { id } = useParams();

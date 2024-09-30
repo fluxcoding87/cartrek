@@ -4,10 +4,10 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "../components/ui/select";
 import { Separator } from "./ui/separator";
 import { CiSearch } from "react-icons/ci";
-import { CarMakes, Pricing } from "@/shared/Data";
+import { CarMakes, Pricing } from "../shared/Data";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 

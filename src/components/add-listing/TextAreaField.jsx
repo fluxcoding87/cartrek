@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { Textarea } from "@/components/ui/textarea";
+import { Textarea } from "../../components/ui/textarea";
 
 export default function TextAreaField({ carInfo, item, ...props }) {
   return (

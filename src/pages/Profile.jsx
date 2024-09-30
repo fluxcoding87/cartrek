@@ -1,6 +1,11 @@
-import Inbox from "@/components/profile-page/Inbox";
-import MyListing from "@/components/profile-page/MyListing";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Inbox from "../components/profile-page/Inbox.jsx";
+import MyListing from "../components/profile-page/MyListing.jsx";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "../components/ui/tabs.jsx";
 export default function ProfilePage() {
   return (
     <div>

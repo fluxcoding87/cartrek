@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { desc, eq } from "drizzle-orm";
 import { useUser } from "@clerk/clerk-react";
 import { useEffect, useState } from "react";
-import { formatResult } from "@/shared/Service";
+import { formatResult } from "../../shared/Service";
 import CarCardItem from "../CarCardItem";
 import { FaTrash } from "react-icons/fa6";
 

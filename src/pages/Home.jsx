@@ -1,7 +1,7 @@
-import Category from "@/components/Category";
-import InfoSection from "@/components/InfoSection";
-import MostSearchCar from "@/components/MostSearchCar";
-import Search from "@/components/Search";
+import Category from "../components/Category";
+import InfoSection from "../components/InfoSection";
+import MostSearchCar from "../components/MostSearchCar";
+import Search from "../components/Search";
 
 export default function HomePage() {
   return (

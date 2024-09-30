@@ -1,4 +1,4 @@
-import Search from "@/components/Search";
+import Search from "../components/Search";
 import { Outlet } from "react-router-dom";
 
 export default function SearchCategoryLayout() {

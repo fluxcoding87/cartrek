@@ -5,11 +5,11 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../components/ui/carousel";
 import { db } from "../../configs/index";
 import { carImages, CarListing } from "../../configs/schema";
 import { desc, eq } from "drizzle-orm";
-import { formatResult } from "@/shared/Service";
+import { formatResult } from "../shared/Service";
 import { useEffect, useState } from "react";
 
 export default function MostSearchCar() {

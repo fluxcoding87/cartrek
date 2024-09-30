@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import carSpecification from "@/shared/carSpecification";
+import carSpecification from "../../shared/carSpecification";
 import IconField from "../add-listing/IconField";
 
 export default function Specification({ carDetails }) {

@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { db } from "../../configs/index";
 import { carImages, CarListing } from "../../configs/schema";
 import { eq } from "drizzle-orm";
-import { formatResult } from "@/shared/Service";
-import CarCardItem from "@/components/CarCardItem";
+import { formatResult } from "../shared/Service";
+import CarCardItem from "../components/CarCardItem";
 
 export default function NewCarsPage() {
   const [carList, setCarList] = useState([]);
